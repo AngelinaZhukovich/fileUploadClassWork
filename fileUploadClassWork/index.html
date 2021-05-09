@@ -1,0 +1,34 @@
+<html>
+<body>
+  <style>
+    img {
+      max-width: 100px;
+      height: auto;
+    }
+    li {
+      border: 2px dashed rgb(160, 240, 165);
+      padding: 1rem;
+      margin-bottom: 1rem;
+      list-style: none;
+    }
+    .btn {
+      background: green;
+      color: #fff;
+    }
+  </style>
+  <form id="form" enctype="multipart/form-data">
+      <input 
+        type="file" 
+        name="files" 
+        id="fileInput" 
+        multiple
+        accept="image/jpeg,image/png"
+      >
+      <input type="submit" value="Send">
+  </form>
+  <ul>
+
+  </ul>
+  <script src="./index.js"></script>
+</body>
+</html>
